@@ -13,5 +13,5 @@ docker run -it -v $HOME/repos/audiodata:/audiodata speexdecode
 
 # decode
 ```
-speex_decode input_file output_file
+speex_decode /audiodata/input.speex /audiodata/output.wav
 ```
